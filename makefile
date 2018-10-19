@@ -1,7 +1,7 @@
 all: test.o sieve.o
-	gcc -o text.o sieve.o
+	gcc -o test test.o sieve.o
 
-test.o: test.o
+test.o: test.c
 	gcc -c test.c
 
 sieve.o: sieve.c sieve.h
