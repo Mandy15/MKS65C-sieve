@@ -11,4 +11,4 @@ clean:
 	rm test test.o sieve.o
 
 run:
-	./test
+	./test $(args)
